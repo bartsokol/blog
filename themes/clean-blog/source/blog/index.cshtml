@@ -1,0 +1,43 @@
+@{
+    Layout = "default";
+    Title = "Bart = Design + Code";
+    Description = "Technology. By human, for human.";
+}
+@using System.Linq
+@helper PostDate(DateTime rawDate) {
+    <time datetime="@rawDate.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss")" pubdate data-updated="true">@rawDate.ToString("MMM d, yyyy")</time>
+}
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>@Title</h1>
+                    <hr class="small">
+                    <span class="subheading">@Description</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            @foreach (var post in Model.Posts)
+            {
+                <div class="post-preview">
+                    <a href="blog/@post.Url/index.html">
+                        <h2 class="post-title">@post.Title</h2>
+                        <h3 class="post-subtitle">@post.Description</h3>
+                    </a>
+                    <p class="post-meta">Posted on @PostDate(post.Date)</p>
+                </div>
+                <hr>
+            }
+        </div>
+    </div>
+</div>
