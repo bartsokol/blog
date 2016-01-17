@@ -13,4 +13,4 @@ Currently I'm focusing on functional and reactive programming, especially on F# 
 My areas of interest for future development are data science and machine learning.
 
 If you want to get in touch with me don't hesitate to mail me using _bart (at) bart-sokol.info_ address.
-You can also use Twitter or LinkedIn - links provided at the bottom of the page.  
+You can also use Twitter or LinkedIn - links provided at the bottom of the page.
