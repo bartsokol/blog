@@ -1,6 +1,6 @@
 @{
     Layout = "default"; 
-    Title = "Bart = Design + Code";
+    Title = "Welcome | Bart = Design + Code";
     Description = "Technology. By human, for human.";
 }
 @using System.Linq
@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>@Title</h1>
+                    <h1>Welcome!</h1>
                     <hr class="small">
                     <span class="subheading">@Description</span>
                 </div>
@@ -30,7 +30,7 @@
             @foreach (var post in Enumerable.Take(Model.Posts, 5))
             {
                 <div class="post-preview">
-                    <a href="blog/@post.Url/index.html">
+                    <a href="/blog/@post.Url/index.html">
                         <h2 class="post-title">@post.Title</h2>
                         <h3 class="post-subtitle">@post.Description</h3>
                     </a>
@@ -41,7 +41,7 @@
             <!-- Pager -->
             <ul class="pager">
                 <li class="next">
-                    <a href="blog/">All Posts &rarr;</a>
+                    <a href="/blog/">All Posts &rarr;</a>
                 </li>
             </ul>
         </div>

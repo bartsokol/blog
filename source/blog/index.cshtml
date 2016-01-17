@@ -1,7 +1,7 @@
 @{
     Layout = "default";
     Title = "Blog | Bart = Design + Code";
-    Description = "Technology. By human, for human.";
+    Description = "You can find all my blog posts here.";
 }
 @using System.Linq
 @helper PostDate(DateTime rawDate) {
@@ -16,7 +16,7 @@
                 <div class="site-heading">
                     <h1>Blog</h1>
                     <hr class="small">
-                    <span class="subheading">You can find all my blog posts below</span>
+                    <span class="subheading">@Description</span>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
             @foreach (var post in Model.Posts)
             {
                 <div class="post-preview">
-                    <a href="blog/@post.Url/index.html">
+                    <a href="/blog/@post.Url/index.html">
                         <h2 class="post-title">@post.Title</h2>
                         <h3 class="post-subtitle">@post.Description</h3>
                     </a>
