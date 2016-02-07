@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Actor);
-
 /*-------------------------------------------------------------------------- 
   Formatting for F# code snippets 
 /*--------------------------------------------------------------------------*/
@@ -37,7 +35,7 @@ span.omitted {
 div.tip {
   background:#475b5f;
   border-radius:4px;
-  font:11pt 'Droid Sans', arial, sans-serif;
+  font:11pt 'Open Sans', arial, sans-serif;
   padding:6px 8px 6px 8px;
   display:none;
   color:#d1d1d1;

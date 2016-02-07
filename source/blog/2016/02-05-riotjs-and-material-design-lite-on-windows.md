@@ -2,7 +2,7 @@
     Layout = "post";
     Title = "Riot.js and Material Design Lite on Windows";
     Date = "2016-02-05T23:00:00+00:00";
-    Tags = "web javascript css html5 riot.js mdl windows";
+    Tags = "web,javascript,css,html5,riot.js,mdl,windows";
     Description = "";
 }
 
