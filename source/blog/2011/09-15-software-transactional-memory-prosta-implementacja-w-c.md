@@ -16,6 +16,7 @@ Odtwarzanie stanu obiektów oparte jest o refleksję - przepisujemy wartości w�
   
 Zatem założenia znamy, pora poznać implementację. Oto i ona (C# 4.0):
 
+    [lang=csharp]
     public class MemoryTransaction : IDisposable
     {
         #region Static members
@@ -118,6 +119,7 @@ Zatem założenia znamy, pora poznać implementację. Oto i ona (C# 4.0):
 
 Jak widać, ilość kodu nie powala na łopatki, stopień skomplikowania również. Dodatkowo wykorzystywana jest dodatkowa klasa pomocnicza, która dodaje dwie metody rozszerzające (Serialize na object i Deserialize na byte[]) które realizują (de)serializację binarną (System.Runtime.Serialization.Formatters.Binary). Użycie transakcji wygląda identycznie jak TransactionScope (więc można w prosty sposób powiązać STM z transakcją na bazie danych - wystarczą tylko drobne modyfikacje powyższej klasy):
 
+    [lang=csharp]
     using (MemoryTransaction mt = new MemoryTransaction())
     {
         // Tutaj robimy nasz misz-masz...
