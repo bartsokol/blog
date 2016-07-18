@@ -1,0 +1,26 @@
+@{
+    Layout = "post";
+    Title = "Why Android sucks and why I'm still using it?";
+    Date = "2016-07-18T20:15:00+00:00";
+    Tags = "mobile,smartphone,android,ios,windows,google,apple,microsoft";
+    Description = "";
+}
+
+We're all addicts. We cannot walk out without our phones. We cannot even move to another room, knowing that some message may come unnoticed. We spend more and more hours every day looking at our smartphones, probably more than looking at other people or the world around us. Yet those devices, on which we spend substantial amounts of money, are far from being perfect. Do you know anyone who's 100% happy with their smartphone?
+<!--more-->
+
+Yes, there are iPhone owners. They would say that their phones are great, that they love them. Until new model comes in. And have you asked them about the price? Gentlemen don't speak about money, right?
+
+There are also Windows Phone (Mobile, 10, whatever it's called at this moment) users. They are either hating their phones, or loving them. Haters are waiting till their contract is over. Or phone drops "accidentally" into toilet ;) Lovers just don't use their smartphones. Or at least the "smart" part. "How is your YouTube app doing?" - you may ask, if you want to be rude. Oh, you can also ask them to change date/time in settings. Good idea to get them busy for a few minutes.
+
+And there is Android. Globally, the most popular mobile operating system. Running on thousands of different device models, the same bad on all of them. Yes, it's customizable. Yes, it's the most open one. But what's its advantage is also its curse. Countless combinations made writing good quality app a real challenge. Probably 90% of apps in Play Store could be thrown away and nobody would even notice. And the (Android) world would be a better place. But it won't happen. It's gone too far and now it's too late to clean it up. Sure there are good quality apps as well, but nobody says how much money is being constantly pumped into them to make them work like that. And even when you'll be using the top notch apps only, there is the system. The worst part.
+
+It looks good. It has quite well organized menus and options. Material Design brought fresh and consistent look and feel to the system and applications. There was a huge work put into designing all the interactions, all the animations, all the icons, all the layouts. It seems to be good counterpart to polished iOS. Yet everything is broken by how it's actually implemented.
+
+Lag. It's the word Android users don't want to say. It breaks all the great ideas apart; it makes all the design virtually pointless. How many times you've done some stupid or irritating things because you wanted to act too quickly? How many times did you press the wrong option because you thought first time system didn't react? How many times did you think that some app is broken, while it was just waiting to be shown for too long?
+
+I've been using Android since the early days of the platform, when it was really raw and unpolished. Over the time system evolved dramatically, and I really appreciate the work Google and other companies have put to make it so. But I also cannot understand how devices which are almost doubling in performance each year are working same sluggish way. Even without system customizations, which are often told to be cause of the issue, devices are not getting much faster. They may run newest games with higher frame rates, on higher resolutions, with more details. They may crack results in benchmarks. But hey, is this what we use them for most of the time? Is this really what matters for most of the users?
+
+I've owned number of Android phones, from HTC, Samsung, LG and currently Motorola (aka Lenovo). With first 3 brands I've always opted to install custom ROM after some time, because of the performance and/or battery issues with manufacturer software. With my previous device, LG G2, installing CyanogenMod gave it a blast and for some time it almost felt like it should - responsive, smooth and not so power consuming. But after few months it always comes back to state where you feel it's not like it should be. I thought that I should just buy phone with stock (Nexus) or almost-stock (Moto, OnePlus) software. Due to availability I opted for Moto X Style (aka Pure) - I played with it in the store and it seemed to be great. But life again shown that after installing all required software and just few weeks of use it gets same sluggish as the old phone. Even compared with 4-year old iPhone with max fourth of the resources, it seemed to be slow, which should say something.
+
+Saying that I still use it, and I'll probably stick with Android for some more time. Every alternative has it flaws - and the only real one being iPhone doesn't make me wanting to change. Sure, if the price difference wouldn't be so substantial (at least half more for comparable iPhone model vs Moto X) the choice would be really tough, and based on OS differences. Each year I hope that someone will make clean, powerful and time-proof Android phone, with great user experience that would match iOS, but with power and thought-through design of Android. But this year hasn't come yet.
